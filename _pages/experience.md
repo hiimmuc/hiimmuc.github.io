@@ -12,6 +12,7 @@ author_profile: true
 ---
 
 ### AI/Robotics Engineer — VinMotion, VinGroup
+
 **Hanoi, Vietnam · June 2025 – Present** · *Full-time*
 
 Developing and deploying AI for next-generation humanoid robot platforms.
@@ -25,6 +26,7 @@ Developing and deploying AI for next-generation humanoid robot platforms.
 ---
 
 ### AI Engineer — AIS, VMO Holdings
+
 **Hanoi, Vietnam · May 2025 – Sep 2025** · *Contract remote*
 
 - Built an end-to-end **Computer Vision Acceleration Pipeline** to optimize model inference latency for large-scale camera systems — reducing development-phase time cost by 50–70%
@@ -36,6 +38,7 @@ Developing and deploying AI for next-generation humanoid robot platforms.
 ---
 
 ### Research Assistant — Human Robotics Laboratory, NAIST
+
 **Ikoma, Nara, Japan · Nov 2023 – Sep 2025** · *Contract full-time*
 
 - Developed an **Android VR See-Through System** for medical assessment robots, enabling clinicians to observe patient behavior through robot sensors remotely
@@ -46,6 +49,7 @@ Developing and deploying AI for next-generation humanoid robot platforms.
 ---
 
 ### AI Engineer — Viettel Big Data Analytics Center, Viettel Telecom
+
 **Hanoi, Vietnam · Nov 2021 – Sep 2023** · *Full-time*
 
 Led the development of production-scale AI systems for Vietnam's largest telecom operator.
@@ -60,6 +64,7 @@ Led the development of production-scale AI systems for Vietnam's largest telecom
 ---
 
 ### AI Intern — Viettel Digital Talents Program 2021
+
 **Hanoi, Vietnam · Apr 2021 – Oct 2021** · *Part-time*
 
 - Completed intensive training on core AI and Data Science methods under Viettel's national AI talent initiative
@@ -73,6 +78,7 @@ Led the development of production-scale AI systems for Vietnam's largest telecom
 ---
 
 ### Master of Engineering — Human Robotics Interaction
+
 **Nara Institute of Science and Technology (NAIST), Japan · Oct 2023 – Sep 2025**
 
 - Research: Personalized human-robot interface for automatic personal mobility vehicles (APMVs) using generative models tailored to passenger personality
@@ -82,6 +88,7 @@ Led the development of production-scale AI systems for Vietnam's largest telecom
 ---
 
 ### Bachelor of Science — Automation and Electrical Engineering
+
 **Hanoi University of Science and Technology (HUST), Vietnam · Sept 2018 – Sept 2022**
 
 - GPA: **3.52 / 4.0** — Graduated with **Distinction**, 2nd place in Thesis defense committee

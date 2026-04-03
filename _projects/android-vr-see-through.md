@@ -26,7 +26,6 @@ Developed an Android-based VR see-through application for medical assessment rob
 ## Gallery
 
 <!-- Add images below. Place files in /images/portfolio/ and uncomment. -->
-<!--
-![System Overview](/images/portfolio/android-vr-see-through-overview.png)
-![VR Interface](/images/portfolio/android-vr-see-through-interface.png)
--->
+
+![System Overview](images/portfolio/android-vr-see-through-overview.png)
+![VR Interface](images/portfolio/android-vr-see-through-interface.png)

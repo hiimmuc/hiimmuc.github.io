@@ -24,6 +24,7 @@ My work spans large-scale speaker verification, Vision-Language Models (VLMs), V
 Currently at **VinMotion – VinGroup** (June 2025–), developing and deploying VLMs/VLAs into next-generation humanoid robot platforms and integrating multi-tool calling pipelines for autonomous manipulation and navigation.
 
 Previously:
+
 - **AIS – VMO Holdings** (May–Sep 2025): Computer Vision acceleration pipeline; LLM food-ordering kiosk agents.
 - **Human Robotics Lab, NAIST** (Nov 2023–Sep 2025): VR medical assessment systems; AI driving simulator (in collaboration with Hitachi Corp).
 - **Viettel Big Data Analytics Center** (Nov 2021–Sep 2023): Led development of a speaker verification system serving millions of Viettel call-center customers daily.

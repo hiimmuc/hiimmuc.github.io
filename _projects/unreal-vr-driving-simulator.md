@@ -27,7 +27,6 @@ Designed and built a high-fidelity Virtual Reality driving simulator using Unrea
 ## Gallery
 
 <!-- Add images below. Place files in /images/portfolio/ and uncomment. -->
-<!--
-![Simulator Environment](/images/portfolio/unreal-vr-driving-env.png)
-![AI Assistant Interface](/images/portfolio/unreal-vr-driving-assistant.png)
--->
+
+![Simulator Environment](images/portfolio/unreal-vr-driving-env.png)
+![AI Assistant Interface](images/portfolio/unreal-vr-driving-assistant.png)
