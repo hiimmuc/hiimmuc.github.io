@@ -41,7 +41,7 @@ author:
     semantic:
     ssrn:
     pubmed:
-    researchgate:
+    researchgate: "https://www.researchgate.net/profile/Nam-Dang-23"
     scopus:
     zotero:
 
@@ -53,18 +53,22 @@ author:
     kaggle:
     stackoverflow:
 
+    # Freelance platforms
+    freelancer: "https://www.freelancer.com/u/DngPhgNam"
+    upwork: "https://www.upwork.com/freelancers/phuongnamd"
+
     # Social media
     artstation:
     bluesky:
-    facebook:
+    facebook: "https://www.facebook.com/phgnam1811/"
     flickr:
     foursquare:
     goodreads:
     google_plus:
     keybase:
-    instagram:
+    instagram: "https://www.instagram.com/_mot_con_muc_/"
     lastfm:
-    linkedin:
+    linkedin: "https://www.linkedin.com/in/phgnam-dang/"
     mastodon:
     medium:
     pinterest:
