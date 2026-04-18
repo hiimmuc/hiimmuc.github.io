@@ -1,0 +1,5 @@
+# Vercel-specific config overrides
+# This file is merged on top of _config.yml during Vercel builds
+# See vercel.json for build configuration
+
+url: https://hiimmuc.vercel.app
