@@ -9,6 +9,11 @@ group :jekyll_plugins do
   gem 'webrick', '~> 1.8'
 end
 
-gem 'github-pages'
-gem 'connection_pool', '2.5.0'
+# Only needed for local dev to match GitHub Pages environment.
+# Excluded on Vercel via BUNDLE_WITHOUT=github_pages (see vercel.json)
+group :github_pages do
+  gem 'github-pages'
+  gem 'connection_pool', '2.5.0'
+end
+
 gem 'jekyll-sass-converter', '~> 2.0'
