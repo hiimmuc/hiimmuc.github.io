@@ -1,6 +1,6 @@
 {
 	"buildCommand": "bundle exec jekyll build --config _config.yml,_config_vercel.yml",
 	"outputDirectory": "_site",
-	"installCommand": "bundle install --without github_pages",
+	"installCommand": "bundle install",
 	"framework": "jekyll"
 }
