@@ -95,3 +95,18 @@ Languages
 
 * Vietnamese — Native
 * English — IELTS 6.5
+
+Download Full Resume
+======
+
+You can download and view my complete resume in PDF format below:
+
+<div style="text-align: center; margin: 20px 0;">
+  <a href="{% include base_path %}/files/Resume_DangPhuongNam_AIEngineer.pdf" class="btn btn--primary" download>
+    📥 Download Resume (PDF)
+  </a>
+</div>
+
+<div style="text-align: center; margin: 20px 0; border: 1px solid #ddd; padding: 10px; border-radius: 5px;">
+  <embed src="{% include base_path %}/files/Resume_DangPhuongNam_AIEngineer.pdf" type="application/pdf" width="100%" height="600px" />
+</div>
