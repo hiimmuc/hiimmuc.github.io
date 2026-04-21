@@ -70,7 +70,7 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-Talks
+<!-- Talks
 ======
 
   <ul>{% for post in site.talks reversed %}
@@ -82,7 +82,7 @@ Teaching
 
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
 
 Awards & Honors
 ======
