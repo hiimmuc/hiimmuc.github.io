@@ -1,6 +1,6 @@
 ---
 title: "Large-Scale Speaker Verification System for Viettel Call Center"
-excerpt: "Production speaker verification system serving millions of Viettel customers daily, replacing OTP/security-question authentication with voice biometrics. Ranked Top 20 in VoxSRC 2022.<br/><img src='/images/portfolio/speaker-verification-preview.png'>"
+excerpt: "Production speaker verification system serving millions of Viettel customers daily, replacing OTP/security-question authentication with voice biometrics. Ranked Top 20 in VoxSRC 2022.<br/><img src='/images/portfolio/speaker-verification-preview.webp'>"
 collection: projects
 date: 2023-09-01
 ---

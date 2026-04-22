@@ -1,6 +1,6 @@
 ---
 title: "Android VR See-Through System for Medical Assessment Robots"
-excerpt: "VR see-through application enabling clinicians to remotely observe patient behavior through a medical assessment robot's sensors in real time.<br/><img src='/images/portfolio/android-vr-see-through-preview.png'>"
+excerpt: "VR see-through application enabling clinicians to remotely observe patient behavior through a medical assessment robot's sensors in real time.<br/><img src='/images/portfolio/android-vr-see-through-preview.webp'>"
 collection: projects
 date: 2024-09-01
 ---
@@ -27,5 +27,5 @@ Developed an Android-based VR see-through application for medical assessment rob
 
 <!-- Add images below. Place files in /images/portfolio/ and uncomment. -->
 
-![System Overview](images/portfolio/android-vr-see-through-overview.png)
-![VR Interface](images/portfolio/android-vr-see-through-interface.png)
+![System Overview](/images/portfolio/android-vr-see-through-overview.webp)
+![VR Interface](/images/portfolio/android-vr-see-through-interface.webp)

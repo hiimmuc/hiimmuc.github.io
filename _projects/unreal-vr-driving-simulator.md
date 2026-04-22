@@ -1,6 +1,6 @@
 ---
 title: "Unreal-Based VR Driving Simulator with AI Driving Assistant"
-excerpt: "High-fidelity VR driving simulator built in Unreal Engine with an integrated AI assistant for driver training and cognitive evaluation. Developed in collaboration with Hitachi Corp, Japan.<br/><img src='/images/portfolio/unreal-vr-driving-preview.png'>"
+excerpt: "High-fidelity VR driving simulator built in Unreal Engine with an integrated AI assistant for driver training and cognitive evaluation. Developed in collaboration with Hitachi Corp, Japan.<br/><img src='/images/portfolio/unreal-vr-driving-preview.webp'>"
 collection: projects
 date: 2025-09-01
 ---
@@ -28,5 +28,5 @@ Designed and built a high-fidelity Virtual Reality driving simulator using Unrea
 
 <!-- Add images below. Place files in /images/portfolio/ and uncomment. -->
 
-![Simulator Environment](images/portfolio/unreal-vr-driving-env.png)
-![AI Assistant Interface](images/portfolio/unreal-vr-driving-assistant.png)
+![Simulator Environment](/images/portfolio/unreal-vr-driving-env.webp)
+![Preview Usage](/images/portfolio/unreal-vr-driving-preview.webp)

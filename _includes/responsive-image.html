@@ -1,0 +1,51 @@
+{% comment %}
+Responsive Image Include with WebP Support and Lazy Loading
+
+Usage:
+{% include responsive-image.html
+src="image.png"
+alt="Image description"
+title="Optional title"
+class="optional-css-class"
+use_lazy="true"
+%}
+
+Features:
+- Automatically generates WebP versions with PNG fallback
+- Native lazy loading (loading="lazy")
+- JavaScript fallback for older browsers
+- Responsive image sizing
+- Maintains aspect ratio
+{% endcomment %}
+
+{% capture image_src %}{{ include.src | default: "placeholder.png" }}{% endcapture %}
+{% capture image_basename %}{{ image_src | split: '.' | first }}{% endcapture %}
+{% capture image_ext %}{{ image_src | split: '.' | last }}{% endcapture %}
+{% capture image_path %}{{ image_basename }}.{{ image_ext }}{% endcapture %}
+{% capture image_webp_path %}{{ image_basename }}.webp{% endcapture %}
+
+{% comment %} Handle both relative and absolute paths {% endcomment %}
+{% if image_src contains "://" %}
+{% assign full_image_path = image_src %}
+{% assign full_webp_path = image_src %}
+{% else %}
+{% capture full_image_path %}{{ image_path | prepend: "/images/" | prepend: base_path }}{% endcapture %}
+{% capture full_webp_path %}{{ image_webp_path | prepend: "/images/" | prepend: base_path }}{% endcapture %}
+{% endif %}
+
+{% capture use_lazy %}{{ include.use_lazy | default: "true" }}{% endcapture %}
+{% capture image_class %}{{ include.class }}{% endcapture %}
+{% capture image_alt %}{{ include.alt | default: include.title }}{% endcapture %}
+{% capture image_title %}{{ include.title }}{% endcapture %}
+
+<picture class="responsive-image-wrapper {{ image_class }}">
+    <!-- WebP format for modern browsers -->
+    <source srcset="{{ full_webp_path }}" type="image/webp" {% if use_lazy=="true" %} data-srcset="{{ full_webp_path }}"
+        {% endif %}>
+
+    <!-- Fallback to original format -->
+    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3C/svg%3E" {% if
+        use_lazy=="true" %} data-src="{{ full_image_path }}" loading="lazy" class="lazy-image" {% else %}
+        src="{{ full_image_path }}" {% endif %} alt="{{ image_alt }}" {% if image_title %}title="{{ image_title }}" {%
+        endif %} class="responsive-image">
+</picture>

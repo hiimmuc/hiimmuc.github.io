@@ -135,7 +135,8 @@ $(document).ready(function () {
   });
 
   // Init smooth scroll, this needs to be slightly more than then fixed masthead height
-  $("a").smoothScroll({
+  // Only apply to anchor links (starting with #), not navigation or page links
+  $("a[href^='#']").smoothScroll({
     offset: -scssMastheadHeight,
     preventDefault: false,
   });

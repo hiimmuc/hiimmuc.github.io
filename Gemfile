@@ -9,6 +9,7 @@ group :jekyll_plugins do
   gem 'jekyll-redirect-from'
   gem 'jemoji'
   gem 'webrick', '~> 1.8'
+  gem 'kramdown-parser-gfm'
 end
 
-gem 'jekyll-sass-converter', '~> 2.0'
+gem 'jekyll-sass-converter', '~> 1.0'

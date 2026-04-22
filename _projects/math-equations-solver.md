@@ -1,6 +1,6 @@
 ---
 title: "Handwritten Mathematical System of Equations Solver"
-excerpt: "Deep learning system that recognizes and solves handwritten systems of equations including polynomial and high-degree cases.<br/><img src='/images/portfolio/math-equations-solver-preview.png'>"
+excerpt: "Deep learning system that recognizes and solves handwritten systems of equations including polynomial and high-degree cases.<br/><img src='/images/portfolio/math-equations-solver-preview.webp'>"
 collection: projects
 date: 2020-11-01
 ---
