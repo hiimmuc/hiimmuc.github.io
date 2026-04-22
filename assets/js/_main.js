@@ -28,7 +28,7 @@ let setTheme = (theme) => {
     theme ||
     localStorage.getItem("theme") ||
     $("html").attr("data-theme") ||
-    browserPref;
+    "light";  // Default to light theme as defined in CSS cascade
 
   if (use_theme === "dark") {
     $("html").attr("data-theme", "dark");
