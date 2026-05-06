@@ -1,6 +1,6 @@
 <h1 align="center">Hi there, I'm MuC 👋</h1>
 <p align="center">
-  <img src="images/panda.jpeg" alt="panda profile picture" width="200px">
+  <img src="images/panda.webp" alt="panda profile picture" width="200px">
 </p>
 <p align="center">
   <a href="https://www.linkedin.com/in/phgnam-dang/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>

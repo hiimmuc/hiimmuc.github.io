@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I am an AI Engineer and Robotics Researcher with over 4 years of industry experience building and deploying production AI systems. I hold a Master of Engineering from the [Nara Institute of Science and Technology (NAIST)](https://www.naist.jp/en/) and a Bachelor's degree in Automation and Electrical Engineering (Distinction) from [Hanoi University of Science and Technology (HUST)](https://www.hust.edu.vn/).
-
-My work spans large-scale speech-related tasks, Vision-Language Models (VLMs), Vision-Language Action Models (VLAs), agentic AI with LangGraph, and robotics platforms. I am passionate about building robust, deployable AI systems that bridge research and real-world impact.
+I am an AI Engineer and Robotics Researcher with over 4 years of industry experience building and deploying production AI systems. I hold a Master of Engineering from the [Nara Institute of Science and Technology (NAIST)](https://www.naist.jp/en/) and a Bachelor of Science in Automation and Electrical Engineering (Distinction) from [Hanoi University of Science and Technology (HUST)](https://www.hust.edu.vn/).
+<br/><br/>
+My work spans large-scale LLM tasks, Vision-Language Models (VLMs), Vision-Language Action Models (VLAs), Agentic AI, and robotics platforms. I am passionate about building robust, deployable AI systems that bridge research and real-world impact.
 
 ## Research Interests
 
@@ -17,6 +17,7 @@ My work spans large-scale speech-related tasks, Vision-Language Models (VLMs), V
 - Agentic AI & LLM-powered systems
 - Speech & Speaker Recognition
 - Human-Robot Interaction
+- Embodied AI and Robotics
 - Computer Vision
 
 ## Recent Experience

@@ -1,6 +1,6 @@
 ---
 title: "Swarm UAV Monitoring Simulation and GUI"
-excerpt: "GUI and simulation framework for monitoring swarm UAVs in search-and-rescue scenarios, enabling pre-deployment testing of coordination algorithms.<br/><img src='/images/portfolio/swarm-uav-gui-preview.webp'>"
+excerpt: "GUI and simulation framework for monitoring swarm UAVs in search-and-rescue scenarios, enabling pre-deployment testing of coordination algorithms.<br/><img src='/images/portfolio/swarm-uav-gui-dashboard.png'>"
 collection: projects
 date: 2024-12-01
 ---
