@@ -26,7 +26,6 @@ Designed a graphical user interface and simulation framework for monitoring and 
 ## Gallery
 
 <!-- Add images below. Place files in /images/portfolio/ and uncomment. -->
-<!--
+
 ![GUI Dashboard](/images/portfolio/swarm-uav-gui-dashboard.png)
-![Simulation View](/images/portfolio/swarm-uav-gui-simulation.png)
--->
+<!-- ![Simulation View](/images/portfolio/swarm-uav-gui-simulation.png) -->

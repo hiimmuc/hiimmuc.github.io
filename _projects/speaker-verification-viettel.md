@@ -28,7 +28,7 @@ Led the end-to-end development and production deployment of a large-scale speake
 ## Gallery
 
 <!-- Add images below. Place files in /images/portfolio/ and uncomment. -->
-<!--
-![System Architecture](/images/portfolio/speaker-verification-arch.png)
-![Accuracy Results](/images/portfolio/speaker-verification-results.png)
--->
+
+![Problem Overview](/images/portfolio/speaker-verification-overview.webp)
+![System Preview](/images/portfolio/speaker-verification-preview.webp)
+![Model Architecture](/images/portfolio/speaker-verification-arch.webp)
