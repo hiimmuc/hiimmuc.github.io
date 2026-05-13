@@ -91,6 +91,12 @@ $sidebar-screen-min-width: 1024px;
 	--badge-wip-color: #{$gh-attention-fg};
 	--badge-soon-bg: #fbefff;
 	--badge-soon-color: #{$gh-done-fg};
+	--badge-part-bg: #ddf4ff;
+	--badge-part-color: #{$gh-accent-emphasis};
+	--badge-perm-bg: #e0f2fe;
+	--badge-perm-color: #0369a1;
+	--badge-onsite-bg: #f1f1f1;
+	--badge-onsite-color: #{$gh-fg-muted};
 	--img-placeholder-bg: linear-gradient(
 		135deg,
 		#{$gh-canvas-subtle} 0%,

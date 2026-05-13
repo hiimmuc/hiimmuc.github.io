@@ -101,6 +101,12 @@ html[data-theme="dark"] {
 	--badge-wip-color: #{$grv-orange-bright};
 	--badge-soon-bg: rgba(177, 98, 134, 0.2);
 	--badge-soon-color: #{$grv-purple-bright};
+	--badge-part-bg: rgba(69, 133, 136, 0.2);
+	--badge-part-color: #{$grv-blue-bright};
+	--badge-perm-bg: rgba(104, 157, 106, 0.2);
+	--badge-perm-color: #{$grv-aqua-bright};
+	--badge-onsite-bg: rgba(124, 111, 100, 0.2);
+	--badge-onsite-color: #{$grv-fg4};
 	--img-placeholder-bg: linear-gradient(
 		135deg,
 		#{$grv-bg1} 0%,

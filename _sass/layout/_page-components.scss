@@ -145,18 +145,32 @@
 	text-transform: uppercase;
 	letter-spacing: 0.04em;
 }
-.tl-badge--full {
+/* Schedule */
+.tl-badge--fulltime {
 	background: var(--badge-done-bg);
 	color: var(--badge-done-color);
+}
+.tl-badge--parttime {
+	background: var(--badge-part-bg);
+	color: var(--badge-part-color);
+}
+/* Contract type */
+.tl-badge--permanent {
+	background: var(--badge-perm-bg);
+	color: var(--badge-perm-color);
 }
 .tl-badge--contract {
 	background: var(--badge-wip-bg);
 	color: var(--badge-wip-color);
 }
-.tl-badge--intern,
-.tl-badge--part {
+/* Location */
+.tl-badge--remote {
 	background: var(--badge-soon-bg);
 	color: var(--badge-soon-color);
+}
+.tl-badge--onsite {
+	background: var(--badge-onsite-bg);
+	color: var(--badge-onsite-color);
 }
 
 /* ── Simple timeline (CV page) ── */

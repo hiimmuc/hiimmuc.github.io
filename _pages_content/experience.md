@@ -4,7 +4,7 @@
 
 ### VinMotion, VinGroup
 
-- Role: AI/Robotics Engineer (Full-time)
+- Role: AI/Robotics Engineer (PermanentFull-time)
 - Period: June 2025 – Present
 - Location: Hanoi, Vietnam
 - Stack: ROS 2, Python, PyTorch, LangGraph, Tool Calling, VLA, VLM, Gazebo
@@ -20,7 +20,7 @@
 
 ### AIS, VMO Holdings
 
-- Role: AI Engineer (Contract)
+- Role: AI Engineer (Contract full-time remote)
 - Period: May 2025 – Sep 2025
 - Location: Hanoi, Vietnam
 - Stack: Python, FastAPI, ONNX, LangChain, LangGraph, LLM, NLP, ASR, TTS
@@ -32,7 +32,7 @@
 
 ### Human Robotics Laboratory, NAIST
 
-- Role: Research Assistant (Contract)
+- Role: Research Assistant (Contract full-time)
 - Period: Nov 2023 – Sep 2025
 - Location: Ikoma, Japan
 - Stack: Flutter, Python, Unity, Unreal Engine, ROS 2
@@ -40,14 +40,14 @@
     - Developed an Android VR See-Through System for medical assessment robots enabling remote clinical observation
     - Designed an Unreal-based VR driving simulator with integrated AI assistant for driver training and cognition evaluation (Hitachi Corp collaboration)
 - Projects:
-    - Personalized Voice-Based eHMI → /projects/pesonalize-voice-based-eHMI/
+    - Personalized Voice-Based eHMI → /projects/personalized-voice-based-eHMI/
     - Android VR See-Through System → /projects/android-vr-see-through/
     - Unreal-Based VR Driving Simulator → /projects/unreal-vr-driving-simulator/
 - Key Skills: Flutter, Unreal Engine, Unity, ROS 2, Generative AI, HRI, VR/AR
 
 ### Viettel Big Data Analytics Center
 
-- Role: AI Engineer (Full-time)
+- Role: AI Engineer (Permanent Full-time)
 - Period: Nov 2021 – Sep 2023
 - Location: Hanoi, Vietnam
 - Stack: Python, PyTorch, Triton, Docker, Kafka, ASR, VAD, NLP, LLM, Speaker Verification
@@ -69,7 +69,7 @@
 
 ### Viettel Digital Talents Program 2021
 
-- Role: AI Intern
+- Role: AI Intern (Part-time internship)
 - Period: Apr 2021 – Oct 2021
 - Location: Hanoi, Vietnam
 - Bullets:
