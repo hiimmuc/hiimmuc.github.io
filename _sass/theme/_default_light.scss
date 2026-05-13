@@ -1,48 +1,102 @@
 /* ==========================================================================
     DEFAULT THEME - LIGHT VERSION
+    GitHub light theme palette
     ========================================================================== */
-/* Color codes used for the theme */
-$primary-color              : #2f7f93;
-$gray                       : #7a8288;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
-$light-gray                 : mix(#fff, $gray, 50%);
-$lighter-gray               : mix(#fff, $gray, 90%);
 
-/* Color codes used for the site */
-$danger-color               : #ee5f5b;
-$info-color                 : #2f7f93;
-$notice-color               : #7a8288;
-$success-color              : #62c462;
-$warning-color              : #f89406;
+/* GitHub light palette */
+$gh-canvas-default: #ffffff;
+$gh-canvas-subtle: #f6f8fa;
+$gh-canvas-inset: #f0f2f4;
+$gh-border-default: #d0d7de;
+$gh-border-muted: #d8dee4;
+$gh-fg-default: #24292f;
+$gh-fg-muted: #57606a;
+$gh-fg-subtle: #6e7781;
+$gh-accent-fg: #0969da;
+$gh-accent-emphasis: #0550ae;
+$gh-success-fg: #1a7f37;
+$gh-attention-fg: #9a6700;
+$gh-danger-fg: #cf222e;
+$gh-done-fg: #8250df;
 
-/* Other basic settings for the template */
-$border-radius              : 4px;
-$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
-$global-transition          : all 0.2s ease-in-out;
-$masthead-height            : 70px;
-$navicon-width              : 28px;
-$navicon-height             : 4px;
-$sidebar-link-max-width     : 250px;
-$sidebar-screen-min-width   : 1024px;
+/* Required SCSS variables used by layout partials */
+$primary-color: $gh-accent-fg;
+$gray: #7a8288;
+$dark-gray: mix(#000, $gray, 40%);
+$darker-gray: mix(#000, $gray, 60%);
+$light-gray: mix(#fff, $gray, 50%);
+$lighter-gray: mix(#fff, $gray, 90%);
+$danger-color: $gh-danger-fg;
+$info-color: $gh-accent-fg;
+$notice-color: $gh-fg-subtle;
+$success-color: $gh-success-fg;
+$warning-color: $gh-attention-fg;
+
+/* Other basic settings */
+$border-radius: 4px;
+$box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125);
+$global-transition: all 0.2s ease-in-out;
+$masthead-height: 70px;
+$navicon-width: 28px;
+$navicon-height: 4px;
+$sidebar-link-max-width: 250px;
+$sidebar-screen-min-width: 1024px;
 
 /* Default light theme for the site */
 :root {
-    --global-base-color                 : #{$primary-color};
-    --global-bg-color                   : #fff;
-    --global-footer-bg-color            : #f2f3f3;
-    --global-border-color               : #{$lighter-gray};
-    --global-dark-border-color          : #bdc1c4;
-    --global-code-background-color      : #fafafa;
-    --global-code-text-color            : #{$darker-gray};
-    --global-fig-caption-color          : mix(#fff,  #{$dark-gray}, 25%);
-    --global-link-color                 : #52adc8;
-    --global-link-color-hover           : mix(#000, #2f7f93, 25%);
-    --global-link-color-visited         : mix(#fff, #2f7f93, 25%);  
-    --global-masthead-link-color        : #{$dark-gray};
-    --global-masthead-link-color-hover  : mix(#000, #{$gray}, 25%);    
-    --global-text-color                 : #{$dark-gray};
-    --global-text-color-light           : #{$light-gray};
-    --global-thead-color                : #{$lighter-gray};
-}
+	/* ── Core globals ── */
+	--global-base-color: #{$gh-accent-fg};
+	--global-bg-color: #{$gh-canvas-default};
+	--global-footer-bg-color: #{$gh-canvas-subtle};
+	--global-border-color: #{$gh-border-default};
+	--global-dark-border-color: #{$gh-border-muted};
+	--global-code-background-color: #{$gh-canvas-subtle};
+	--global-code-text-color: #{$gh-fg-default};
+	--global-fig-caption-color: #{$gh-fg-muted};
+	--global-link-color: #{$gh-accent-fg};
+	--global-link-color-hover: #{$gh-accent-emphasis};
+	--global-link-color-visited: #{$gh-done-fg};
+	--global-masthead-link-color: #{$gh-fg-default};
+	--global-masthead-link-color-hover: #{$gh-accent-fg};
+	--global-text-color: #{$gh-fg-default};
+	--global-text-color-light: #{$gh-fg-muted};
+	--global-thead-color: #{$gh-canvas-subtle};
 
+	/* ── Component vars (experience / projects pages) ── */
+	--card-bg: #{$gh-canvas-default};
+	--card-border: #{$gh-border-default};
+	--card-shadow: 0 1px 3px rgba(27, 31, 36, 0.08);
+	--card-shadow-hover: 0 4px 12px rgba(27, 31, 36, 0.15);
+	--card-title-color: #{$gh-fg-default};
+	--card-text-color: #{$gh-fg-muted};
+	--card-date-color: #{$gh-fg-subtle};
+	--tl-line-color: #{$gh-border-default};
+	--tl-dot-color: #{$gh-accent-fg};
+	--tl-dot-border: #{$gh-canvas-default};
+	--tl-dot-ring: rgba(9, 105, 218, 0.2);
+	--tl-role-color: #{$gh-fg-default};
+	--tl-org-color: #{$gh-fg-muted};
+	--tl-period-color: #{$gh-fg-subtle};
+	--tl-stack-chip-bg: #{$gh-canvas-subtle};
+	--tl-stack-chip-color: #{$gh-fg-muted};
+	--section-heading-color: #{$gh-fg-subtle};
+	--section-heading-border: #{$gh-border-default};
+	--filter-pill-border: #{$gh-accent-fg};
+	--filter-pill-color: #{$gh-accent-fg};
+	--filter-pill-active-bg: #{$gh-accent-fg};
+	--filter-pill-active-color: #ffffff;
+	--badge-done-bg: #dafbe1;
+	--badge-done-color: #{$gh-success-fg};
+	--badge-wip-bg: #fff8c5;
+	--badge-wip-color: #{$gh-attention-fg};
+	--badge-soon-bg: #fbefff;
+	--badge-soon-color: #{$gh-done-fg};
+	--img-placeholder-bg: linear-gradient(
+		135deg,
+		#{$gh-canvas-subtle} 0%,
+		#{$gh-canvas-inset} 100%
+	);
+	--img-placeholder-color: #{$gh-border-default};
+	--edu-school-color: #{$gh-accent-fg};
+	--category-heading-color: #{$gh-fg-subtle};
+}

@@ -1,0 +1,114 @@
+---
+layout: archive
+title: "Contact"
+permalink: /contact/
+author_profile: true
+---
+
+{% include base_path %}
+
+<!-- ═══ Contact Info + Map ═══ -->
+<div class="exp-section">
+    <span class="exp-section__title">Get in Touch</span>
+
+    <div class="contact-grid">
+
+        <!-- Left: contact info -->
+        <div class="contact-info">
+
+            <div class="contact-info-item">
+                <div class="contact-info-icon">📍</div>
+                <div>
+                    <p class="contact-info-label">Location</p>
+                    <p class="contact-info-value">Hanoi, Vietnam</p>
+                </div>
+            </div>
+
+            <div class="contact-info-item">
+                <div class="contact-info-icon">✉️</div>
+                <div>
+                    <p class="contact-info-label">Email</p>
+                    <p class="contact-info-value">
+                        <a href="mailto:phgnam1811.vn@gmail.com">phgnam1811.vn@gmail.com</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="contact-info-item">
+                <div class="contact-info-icon">💼</div>
+                <div>
+                    <p class="contact-info-label">LinkedIn</p>
+                    <p class="contact-info-value">
+                        <a href="https://linkedin.com/in/hiimmuc" target="_blank"
+                            rel="noopener">linkedin.com/in/hiimmuc</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="contact-info-item">
+                <div class="contact-info-icon">🐙</div>
+                <div>
+                    <p class="contact-info-label">GitHub</p>
+                    <p class="contact-info-value">
+                        <a href="https://github.com/hiimmuc" target="_blank" rel="noopener">github.com/hiimmuc</a>
+                    </p>
+                </div>
+            </div>
+
+        </div><!-- /.contact-info -->
+
+        <!-- Right: map -->
+        <div style="display:flex; flex-direction:column;">
+            <div class="contact-map" style="flex:1;">
+                <iframe title="Hanoi, Vietnam map"
+                    src="https://www.openstreetmap.org/export/embed.html?bbox=105.7542%2C20.9285%2C105.9542%2C21.1285&amp;layer=mapnik&amp;marker=21.0285%2C105.8542"
+                    loading="lazy" referrerpolicy="no-referrer">
+                </iframe>
+            </div>
+            <p style="font-size:0.72rem; color:var(--card-date-color); margin:0.35rem 0 0; text-align:right;">
+                <a href="https://www.openstreetmap.org/?mlat=21.0285&amp;mlon=105.8542#map=12/21.0285/105.8542"
+                    target="_blank" rel="noopener" style="color:var(--card-date-color);">View larger map ↗</a>
+            </p>
+        </div>
+
+    </div><!-- /.contact-grid -->
+</div><!-- /.exp-section -->
+
+
+<!-- ═══ Contact Form ═══ -->
+<div class="exp-section">
+    <span class="exp-section__title">Send a Message</span>
+
+    <form class="contact-form" action="https://formsubmit.co/phgnam1811.vn@gmail.com" method="POST">
+
+        <!-- honeypot spam protection -->
+        <input type="text" name="_honey" style="display:none">
+        <!-- <input type="hidden" name="_captcha" value="false"> -->
+        <input type="hidden" name="_subject" value="New message from portfolio contact form">
+        <input type="hidden" name="_next" value="https://hiimmuc.github.io/contact/?sent=1">
+
+        <div class="contact-form__row">
+            <div class="contact-form__field">
+                <label class="contact-form__label" for="cf-name">Full name</label>
+                <input class="contact-form__input" type="text" id="cf-name" name="name" placeholder="Your name" required
+                    autocomplete="name">
+            </div>
+            <div class="contact-form__field">
+                <label class="contact-form__label" for="cf-email">Email address</label>
+                <input class="contact-form__input" type="email" id="cf-email" name="email" placeholder="you@example.com"
+                    required autocomplete="email">
+            </div>
+        </div>
+
+        <div class="contact-form__field">
+            <label class="contact-form__label" for="cf-message">Your message</label>
+            <textarea class="contact-form__textarea" id="cf-message" name="message"
+                placeholder="Write your message here…" required></textarea>
+        </div>
+
+        <div class="contact-form__submit">
+            <button type="submit" class="btn btn--primary">Send Message</button>
+        </div>
+
+    </form>
+</div><!-- /.exp-section -->

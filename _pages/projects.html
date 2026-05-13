@@ -6,7 +6,54 @@ author_profile: true
 ---
 
 {% include base_path %}
+{% assign categories = "Embodied AI|Robotics|Computer Vision|Speech & Audio|Human-Robot Interaction" | split: "|" %}
 
-{% for post in site.projects %}
-{% include archive-single.html %}
+<div class="project-filters">
+    <a href="#all">All</a>
+    {% for cat in categories %}
+    <a href="#{{ cat | slugify }}">{{ cat }}</a>
+    {% endfor %}
+</div>
+
+{% for cat in categories %}
+{% assign cat_projects = site.projects | where: "category", cat | sort: "date" | reverse %}
+{% if cat_projects.size > 0 %}
+<h3 class="project-category-heading" id="{{ cat | slugify }}">{{ cat }}</h3>
+<div class="project-grid">
+    {% for post in cat_projects %}
+    {% assign excerpt_text = post.excerpt | strip_html | truncate: 120 %}
+    {% assign img_src = post.excerpt | split: "src='" | last | split: "'" | first %}
+    {% assign post_date_str = post.date | date: "%Y-%m-%d" %}
+    {% if post.status == "coming-soon" %}
+    {% assign badge_class = "badge--soon" %}
+    {% assign badge_label = "Coming Soon" %}
+    {% elsif post_date_str >= "2025-06-01" %}
+    {% assign badge_class = "badge--wip" %}
+    {% assign badge_label = "In Progress" %}
+    {% else %}
+    {% assign badge_class = "badge--done" %}
+    {% assign badge_label = "Completed" %}
+    {% endif %}
+    <div class="project-card">
+        {% if img_src and img_src != "" and img_src contains "/" %}
+        <img class="project-card__img" src="{{ img_src }}" alt="{{ post.title }}"
+            onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+        <div class="project-card__img-placeholder" style="display:none;">&#128196;</div>
+        {% else %}
+        <div class="project-card__img-placeholder">&#128196;</div>
+        {% endif %}
+        <div class="project-card__body">
+            <h4 class="project-card__title">
+                <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+            </h4>
+            <p class="project-card__excerpt">{{ excerpt_text }}</p>
+            <div class="project-card__footer">
+                <span class="project-card__date">{{ post.date | date: "%Y" }}</span>
+                <span class="project-card__badge {{ badge_class }}">{{ badge_label }}</span>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
 {% endfor %}

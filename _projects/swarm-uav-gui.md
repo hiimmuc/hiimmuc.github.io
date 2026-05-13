@@ -1,7 +1,8 @@
 ---
 title: "Swarm UAV Monitoring Simulation and GUI"
-excerpt: "GUI and simulation framework for monitoring swarm UAVs in search-and-rescue scenarios, enabling pre-deployment testing of coordination algorithms.<br/><img src='/images/portfolio/swarm-uav-gui-dashboard.png'>"
+excerpt: "GUI and simulation framework for monitoring swarm UAVs in search-and-rescue scenarios, enabling pre-deployment testing of coordination algorithms.<br/><img src='/images/portfolio/swarm-uav-gui-dashboard.webp'>"
 collection: projects
+category: Robotics
 date: 2024-12-01
 ---
 
@@ -17,7 +18,7 @@ Designed a graphical user interface and simulation framework for monitoring and 
 
 - Designed an intuitive GUI for real-time swarm UAV state visualization
 - Built a simulation framework for testing coordination algorithms in virtual environments
-- Collaborated with VNU-UET researchers on swarm behavior modeling
+- Collaborated with VNU-UET researchers on swarm behavior modeling, swarm control algorithms, and performance evaluation
 
 ## Technologies
 
@@ -27,5 +28,5 @@ Designed a graphical user interface and simulation framework for monitoring and 
 
 <!-- Add images below. Place files in /images/portfolio/ and uncomment. -->
 
-![GUI Dashboard](/images/portfolio/swarm-uav-gui-dashboard.png)
-<!-- ![Simulation View](/images/portfolio/swarm-uav-gui-simulation.png) -->
+![GUI Dashboard](/images/portfolio/swarm-uav-gui-dashboard.webp)
+<!-- ![Simulation View](/images/portfolio/swarm-uav-gui-simulation.webp) -->

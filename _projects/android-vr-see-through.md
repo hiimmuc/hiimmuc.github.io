@@ -2,6 +2,7 @@
 title: "Android VR See-Through System for Medical Assessment Robots"
 excerpt: "VR see-through application enabling clinicians to remotely observe patient behavior through a medical assessment robot's sensors in real time.<br/><img src='/images/portfolio/android-vr-see-through-preview.webp'>"
 collection: projects
+category: Robotics
 date: 2024-09-01
 ---
 

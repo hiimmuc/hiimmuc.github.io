@@ -12,7 +12,7 @@ site_theme: "default" # The available themes options are "default", "air", "sunr
 title: "Dang Phuong Nam"
 title_separator: "-"
 name: &name "Dang Phuong Nam"
-description: &description "AI Engineer & Robotics Researcher"
+description: &description "AI/Robotics Engineer | HRI & Embodied AI | Multimodal AI (LLM, VLM) | M.Eng@NAIST | BSc@HUST"
 url: https://hiimmuc.github.io
 baseurl: "" # the subpath of your site, e.g. "/blog"
 repository: "hiimmuc/hiimmuc.github.io"
@@ -25,7 +25,7 @@ author:
     avatar: "profile.webp" # filename of avatar image placed in /images/
     name: "Dang Phuong Nam"
     pronouns:
-    bio: "AI Engineer & Robotics Researcher | M.Eng at NAIST | BSc at HUST"
+    bio: "AI/Robotics Engineer | HRI & Embodied AI | Multimodal AI (LLM, VLM) | M.Eng@NAIST | BSc@HUST"
     location: "Hanoi, Vietnam"
     employer: "VinMotion - VinGroup"
     uri:

@@ -1,56 +1,112 @@
 /* ==========================================================================
     DEFAULT THEME - DARK VERSION
+    Gruvbox-inspired palette (medium contrast)
     ========================================================================== */
 
-/* Color codes used for the theme */
-$primary-color              : #0ea1c5;
-$gray                       : #7a8288;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
-$light-gray                 : mix(#fff, $gray, 50%);
+/* Gruvbox dark palette */
+$grv-bg0-hard: #1d2021; /* hardest background */
+$grv-bg0: #282828; /* main background */
+$grv-bg1: #3c3836; /* lighter bg (status bar) */
+$grv-bg2: #504945; /* selection bg */
+$grv-bg3: #665c54; /* inactive selection */
+$grv-bg4: #7c6f64; /* darkened fg4 */
+$grv-fg4: #a89984; /* darkest fg */
+$grv-fg3: #bdae93;
+$grv-fg2: #d5c4a1;
+$grv-fg1: #ebdbb2; /* main foreground */
+$grv-fg0: #fbf1c7; /* lightest fg */
+$grv-red: #cc241d;
+$grv-red-bright: #fb4934;
+$grv-green: #98971a;
+$grv-green-bright: #b8bb26;
+$grv-yellow: #d79921;
+$grv-yellow-bright: #fabd2f;
+$grv-blue: #458588;
+$grv-blue-bright: #83a598;
+$grv-purple: #b16286;
+$grv-purple-bright: #d3869b;
+$grv-aqua: #689d6a;
+$grv-aqua-bright: #8ec07c;
+$grv-orange: #d65d0e;
+$grv-orange-bright: #fe8019;
 
-$background                 : #474747;
-$background-light           : mix(#fff, $background, 80%);
-$background-lighter         : mix(#fff, $background, 90%);
-$text                       : #ffffff;
-$link                       : #0ea1c5;
-$link-dark                  : mix(#000, $link, 25%);
-$link-light                 : mix(#fff, $link, 25%);
+/* Required SCSS variables used by layout partials */
+$primary-color: $grv-blue-bright;
+$gray: $grv-fg4;
+$dark-gray: $grv-bg4;
+$darker-gray: $grv-bg3;
+$light-gray: $grv-fg3;
+$danger-color: $grv-red-bright;
+$info-color: $grv-blue-bright;
+$notice-color: $grv-fg4;
+$success-color: $grv-green-bright;
+$warning-color: $grv-yellow-bright;
 
-/* Color codes used for the site */
-$danger-color               : #ee5f5b;
-$info-color                 : #2f7f93;
-$notice-color               : #7a8288;
-$success-color              : #62c462;
-$warning-color              : #f89406;
+/* Other basic settings */
+$border-radius: 4px;
+$box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125);
+$global-transition: all 0.2s ease-in-out;
+$masthead-height: 70px;
+$navicon-width: 28px;
+$navicon-height: 4px;
+$sidebar-link-max-width: 250px;
+$sidebar-screen-min-width: 1024px;
 
-/* Other basic settings for the template */
-$border-radius              : 4px;
-$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
-$global-transition          : all 0.2s ease-in-out;
-$masthead-height            : 70px;
-$navicon-width              : 28px;
-$navicon-height             : 4px;
-$sidebar-link-max-width     : 250px;
-$sidebar-screen-min-width   : 1024px;
-
-/* Dark theme for the site */
+/* Dark (Gruvbox) theme */
 html[data-theme="dark"] {
-    --global-base-color                 : #{$primary-color};
-    --global-bg-color                   : #{$background};
-    --global-footer-bg-color            : #{$background};
-    --global-border-color               : #{$light-gray};
-    --global-dark-border-color          : #{$background-light};
-    --global-code-background-color      : #fafafa;
-    --global-code-text-color            : #{$darker-gray};
-    --global-fig-caption-color          : #{$light-gray};
-    --global-link-color                 : #{$link};
-    --global-link-color-hover           : #{$link-dark};
-    --global-link-color-visited         : #{$link-light};
-    --global-masthead-link-color        : #{$text};
-    --global-masthead-link-color-hover  : #{$primary-color};
-    --global-text-color                 : #{$text};
-    --global-text-color-light           : #f3f3f3;
-    --global-thead-color                : #{$background-lighter};
-}
+	/* ── Core globals ── */
+	--global-base-color: #{$grv-yellow-bright};
+	--global-bg-color: #{$grv-bg0};
+	--global-footer-bg-color: #{$grv-bg0-hard};
+	--global-border-color: #{$grv-bg2};
+	--global-dark-border-color: #{$grv-bg1};
+	--global-code-background-color: #{$grv-bg1};
+	--global-code-text-color: #{$grv-fg2};
+	--global-fig-caption-color: #{$grv-fg4};
+	--global-link-color: #{$grv-blue-bright};
+	--global-link-color-hover: #{$grv-aqua-bright};
+	--global-link-color-visited: #{$grv-purple-bright};
+	--global-masthead-link-color: #{$grv-fg2};
+	--global-masthead-link-color-hover: #{$grv-yellow-bright};
+	--global-text-color: #{$grv-fg1};
+	--global-text-color-light: #{$grv-fg4};
+	--global-thead-color: #{$grv-bg1};
 
+	/* ── Component vars ── */
+	--card-bg: #{$grv-bg1};
+	--card-border: #{$grv-bg2};
+	--card-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+	--card-shadow-hover: 0 6px 20px rgba(0, 0, 0, 0.5);
+	--card-title-color: #{$grv-fg1};
+	--card-text-color: #{$grv-fg3};
+	--card-date-color: #{$grv-fg4};
+	--tl-line-color: #{$grv-bg2};
+	--tl-dot-color: #{$grv-yellow-bright};
+	--tl-dot-border: #{$grv-bg0};
+	--tl-dot-ring: rgba(250, 189, 47, 0.2);
+	--tl-role-color: #{$grv-fg1};
+	--tl-org-color: #{$grv-fg3};
+	--tl-period-color: #{$grv-yellow};
+	--tl-stack-chip-bg: #{$grv-bg2};
+	--tl-stack-chip-color: #{$grv-fg3};
+	--section-heading-color: #{$grv-fg4};
+	--section-heading-border: #{$grv-bg2};
+	--filter-pill-border: #{$grv-yellow};
+	--filter-pill-color: #{$grv-yellow};
+	--filter-pill-active-bg: #{$grv-yellow};
+	--filter-pill-active-color: #{$grv-bg0-hard};
+	--badge-done-bg: rgba(152, 151, 26, 0.2);
+	--badge-done-color: #{$grv-green-bright};
+	--badge-wip-bg: rgba(214, 93, 14, 0.2);
+	--badge-wip-color: #{$grv-orange-bright};
+	--badge-soon-bg: rgba(177, 98, 134, 0.2);
+	--badge-soon-color: #{$grv-purple-bright};
+	--img-placeholder-bg: linear-gradient(
+		135deg,
+		#{$grv-bg1} 0%,
+		#{$grv-bg2} 100%
+	);
+	--img-placeholder-color: #{$grv-bg4};
+	--edu-school-color: #{$grv-blue-bright};
+	--category-heading-color: #{$grv-fg3};
+}
