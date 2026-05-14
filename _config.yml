@@ -22,7 +22,7 @@ repository: "hiimmuc/hiimmuc.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
     # Biographic information
-    avatar: "profile.webp" # filename of avatar image placed in /images/
+    avatar: "profile/profile.webp" # filename of avatar image placed in /images/
     name: "Dang Phuong Nam"
     pronouns:
     bio: "AI/Robotics Engineer | HRI & Embodied AI | Multimodal AI (LLM, VLM) | M.Eng@NAIST | BSc@HUST"

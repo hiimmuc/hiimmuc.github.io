@@ -9,9 +9,9 @@
 - Location: Hanoi, Vietnam
 - Stack: ROS 2, Python, PyTorch, LangGraph, Tool Calling, VLA, VLM, Gazebo
 - Bullets:
-    - Developed **embodied task-planning modules** for humanoid robots to enable autonomous decision-making and task execution using **multi-agent workflows** and **Vision-Language Models**, reducing reliance on manual control
-    - Built and deployed model-based and model-free **6DoF object pose estimation** modules to improve grasping accuracy for humanoid manipulation tasks using **FoundationPose-based** pipelines
-    - Developed an **instruction-following data generation and benchmarking** pipeline to automate dataset creation and evaluation for VLN model training, following a CI/CD-style workflow for continuous iteration
+    - Developed **embodied task-planning modules** using **multi-agent workflows** and **Vision-Language Models** for autonomous task execution, and decision-making in humanoid robots
+    - Built and deployed model-based and model-free **6DoF object pose estimation** modules to improve robotic grasping accuracy
+    - Developed an **instruction-following data generation and benchmarking** pipeline for VLN training, automating dataset creation and evaluation workflows
 - Projects:
     - Task Planning for Embodied AI → /projects/task-planning-embodied/
     - 6-DoF Object Pose Estimation → /projects/pose-estimation/
@@ -25,9 +25,9 @@
 - Location: Hanoi, Vietnam
 - Stack: Python, FastAPI, ONNX, LangChain, LangGraph, LLM, NLP, ASR, TTS
 - Bullets:
-    - Built a Computer Vision Acceleration Pipeline cutting development-phase time cost by 50–70%
-    - Package tracking with RF-Detr deployed in warehouse via surveillance cameras, automating storage processes
-    - Food-ordering Agentic Workflow with LangGraph deployed in kiosks to automate ordering process
+    - Built a **Computer Vision Acceleration Pipeline** cutting development-phase time cost by 50–70%
+    - **Warehouse Package Tracking** with RF-Detr deployed in warehouse via surveillance cameras, automating storage processes
+    - **Food-Ordering Agentic Workflow** with LangGraph deployed in kiosks to automate ordering process from customer interaction (STT/NLP) to order fulfillment and customer feedback collection (TTS/NLP)
 - Projects: [hidden — company privacy policy]
 
 ### Human Robotics Laboratory, NAIST
@@ -37,24 +37,25 @@
 - Location: Ikoma, Japan
 - Stack: Flutter, Python, Unity, Unreal Engine, ROS 2
 - Bullets:
-    - Developed an Android VR See-Through System for medical assessment robots enabling remote clinical observation
-    - Designed an Unreal-based VR driving simulator with integrated AI assistant for driver training and cognition evaluation (Hitachi Corp collaboration)
+    - Developed an **Android VR See-Through System** for medical assessment robots supporting clinical observation
+    - Designed an **Unreal-Based VR Driving Simulator** with integrated AI driving assistant for driver training and cognition evaluation (Hitachi Corp collaboration)
 - Projects:
     - Personalized Voice-Based eHMI → /projects/personalized-voice-based-eHMI/
     - Android VR See-Through System → /projects/android-vr-see-through/
     - Unreal-Based VR Driving Simulator → /projects/unreal-vr-driving-simulator/
 - Key Skills: Flutter, Unreal Engine, Unity, ROS 2, Generative AI, HRI, VR/AR
 
-### Viettel Big Data Analytics Center
+### Viettel Big Data Analytics Center, Viettel Group
 
 - Role: AI Engineer (Permanent Full-time)
 - Period: Nov 2021 – Sep 2023
 - Location: Hanoi, Vietnam
 - Stack: Python, PyTorch, Triton, Docker, Kafka, ASR, VAD, NLP, LLM, Speaker Verification
 - Bullets:
-    - Built and deployed large-scale speaker verification for Viettel Call Center — serving millions of customers daily via Triton Inference Server
-    - Reduced manual verification workload by >50%; achieved ≈99% accuracy on internal Vietnamese datasets
-    - Participated in VoxCeleb Speaker Recognition Challenge (VoxSRC) 2022 (Top 20); deployed LLM into the My Viettel chatbot platform
+    - Built and deployed **large-scale** speaker verification for Viettel Call Center — serving millions of customers daily with **>99%** accuracy, significantly reducing manual workload (>50%), preventing fraud, and improving customer experience
+    - Developed a **voice quality assessment system** for call centers to monitor and improve audio quality for speech datasets, leading to a reduction of manual review time by **80%** and improving ASR performance through better data quality
+    - Participated in VoxCeleb Speaker Recognition Challenge (VoxSRC) 2022, Vietnamese Language and Speech Processing (VLSP 2022)
+    - Data preparation and implementation of LLM into the My Viettel chatbot platform
 - Projects:
     - Speaker Verification System → /projects/speaker-verification/
     - Voice Quality Assessment → /projects/voice-quality-assessment/
@@ -67,7 +68,7 @@
     - Participated in VoxCeleb Speaker Recognition Challenge (VoxSRC) 2022 (Top 20)
 - Key Skills: Speaker Verification, PyTorch, Triton, ASR, VAD, LLM Fine-tuning, Docker, Kafka
 
-### Viettel Digital Talents Program 2021
+### Viettel Digital Talents Program 2021, Viettel Group
 
 - Role: AI Intern (Part-time internship)
 - Period: Apr 2021 – Oct 2021
