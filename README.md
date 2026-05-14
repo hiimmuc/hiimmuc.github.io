@@ -1,120 +1,173 @@
-<h1 align="center">Hi there, I'm MuC 👋</h1>
-<p align="center">
-  <img src="images/panda.webp" alt="panda profile picture" width="200px">
-</p>
-<p align="center">
-  <a href="https://www.linkedin.com/in/phgnam-dang/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://www.facebook.com/phgnam1811"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook"></a>
-  <a href="https://www.instagram.com/_mot_con_muc_"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
-  <a href="mailto:phgnam1811.vn@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-</p>
+# hiimmuc.github.io
 
-## 🎓 Education & Experience
+Personal academic/portfolio website built with [Jekyll](https://jekyllrb.com/) and hosted on [GitHub Pages](https://pages.github.com/).
 
-- 🤖 MSc in [Human-Robotics Lab](https://isw3.naist.jp/Research/ai-huro-en.html) at Nara Institute of Science and Technology, Japan
-- 🎓 BSc in Control Engineering and Automation from [Hanoi University of Science and Technology](https://hust.edu.vn/)
-- 💼 Former AI Engineer at [Viettel Big Data Analytics Center (DAC)](https://www.linkedin.com/company/dac-viettel/?originalSubdomain=vn)
-- 💼 Former AI Engineer at [VMO Holdings](https://vmogroup.com/)
-- 💼 AI/Robotics Engineer at [VINMOTION](https://vinmotion.net/vi)
+---
 
-## 💻 Technical Skills
+## Table of Contents
 
-<details>
-  <summary><b>Programming Languages</b></summary>
-  <br>
-  <p align="left">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/>
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/>
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/>
-    <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="dart" width="40" height="40"/>
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
-  </p>
-</details>
-<details>
-  <summary><b>Machine Learning & Data Science</b></summary>
-  <br>
-  <p align="left">
-    <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/>
-    <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/>
-    <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/>
-    <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/>
-    <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/>
-  </p>
-</details>
-<details>
-  <summary><b>Development Tools & Platforms</b></summary>
-  <br>
-  <p align="left">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/>
-    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/>
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/>
-    <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/>
-    <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Qt_logo_2016.svg" alt="qt" width="40" height="40"/>
-    <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/>
-    <img src="https://raw.githubusercontent.com/kenangundogan/fontisto/036b7eca71aab1bef8e6a0518f7329f13ed62f6b/icons/svg/brand/unreal-engine.svg" alt="unreal" width="40" height="40"/>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/>
-  </p>
-</details>
+- [hiimmuc.github.io](#hiimmucgithubio)
+  - [Table of Contents](#table-of-contents)
+  - [Repository Structure](#repository-structure)
+  - [Modifying Content](#modifying-content)
+    - [Site-wide settings](#site-wide-settings)
+    - [Pages](#pages)
+    - [Blog posts](#blog-posts)
+    - [Projects](#projects)
+    - [Publications](#publications)
+    - [CV / Data files](#cv--data-files)
+  - [Local Setup](#local-setup)
+    - [Option A: Native Ruby/Jekyll](#option-a-native-rubyjekyll)
+    - [Option B: Docker](#option-b-docker)
+  - [Deployment](#deployment)
+  - [📫 Let's Connect](#-lets-connect)
 
-<!-- ## 📊 GitHub Stats
+---
 
-<p align="center">
-<!--   <img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs?username=hiimmuc&show_icons=true&theme=radical&layout=compact" alt="hiimmuc" />
-</p>
+## Repository Structure
 
-<p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=hiimmuc&show_icons=true&theme=radical" alt="hiimmuc" />
-</p>
+```text
+_config.yml          # Main site configuration (title, author info, URLs, plugins)
+_config_docker.yml   # Overrides url for local Docker preview
+Gemfile              # Ruby gem dependencies
+Dockerfile           # Docker image definition
+docker-compose.yaml  # Docker Compose config for local preview
 
-<p align="center">
-   <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=hiimmuc&theme=radical" alt="hiimmuc" />
-</p>
- -->
-<!-- <p align="center">
-  <img width="25%" src="https://github-readme-stats.vercel.app/api/top-langs?username=hiimmuc&show_icons=true&theme=radical&layout=compact" alt="hiimmuc" />
-  <img width="33%" src="https://github-readme-stats.vercel.app/api?username=hiimmuc&show_icons=true&theme=radical" alt="hiimmuc" />
-  <img width="35%" src="https://github-readme-streak-stats.herokuapp.com/?user=hiimmuc&theme=radical" alt="hiimmuc" />
-</p> --> -->
+_data/               # Structured data files (navigation, CV, authors)
+_pages/              # Static pages (about, CV, publications, projects, etc.)
+_pages_content/      # Markdown source for page body content
+_posts/              # Blog posts (YYYY-MM-DD-title.md)
+_projects/           # Project entries (one .md file per project)
+_publications/       # Publication entries (one .md file per publication)
+_includes/           # Reusable HTML partials
+_layouts/            # Page layout templates
+assets/              # JS, CSS overrides
+images/              # Images used across the site
+files/               # Downloadable files (e.g. CV PDF)
+```
 
-## 🚀 Featured Projects
+---
 
-<details>
-  <summary><b>Project 1: Speaker verification</b></summary>
-  <br>
-  <ul>
-    <li> Extract embeddings from two onset voice audio files </li>
-    <li> Calculate cosine similarity between those embeddings to determine whether they belong to the same person</li>
-  </ul>
-  <p>
-    <a href="https://github.com/hiimmuc/SpeakerVerification">View Project</a>
-  </p>
-</details>
+## Modifying Content
 
-<details>
-  <summary><b>Project 2: VR driving assistant simulation using CARLA</b></summary>
-  <br>
-  <p>Haptic shared control for VR driving 🚙 + eye tracking 👀 simulator based on CARLA for driving assistant research</p>
-  <p>
-    <a href="https://github.com/hiimmuc/DReyeVR-with-Haptic-shared-Control">View Project</a>
-  </p>
-</details>
+### Site-wide settings
 
-<details>
-  <summary><b>Project 3: OCR Handwritten Equation Solver</b></summary>
-  <br>
-  <ul>
-    <li>Detect multiple equations in an image</li>
-    <li>Recognize handwritten mathematical symbols and characters</li>
-    <li>Solve systems of equations</li>
-    <li>Display the results with proper mathematical formatting</li>
-  </ul>
-  <p>
-    <a href="https://github.com/hiimmuc/OCR-Handwritten-equations-solver">View Project</a>
-  </p>
-</details>
+Edit `_config.yml` to update:
+
+- `title`, `name`, `description`, `url`
+- `author` block: avatar, bio, social links, email, ORCID, GitHub, etc.
+- Navigation and plugin settings
+
+### Pages
+
+- Static page HTML/front matter: `_pages/<page>.html`
+- Page body content (Markdown): `_pages_content/<page>.md`
+
+### Blog posts
+
+Create a new file in `_posts/` following the naming convention:
+
+```
+_posts/YYYY-MM-DD-your-post-title.md
+```
+
+Minimal front matter:
+
+```yaml
+---
+title: "Post Title"
+date: YYYY-MM-DD
+permalink: /posts/YYYY/MM/your-post-title/
+tags:
+  - tag1
+---
+```
+
+### Projects
+
+Add a new `.md` file to `_projects/`:
+
+```yaml
+---
+title: "Project Title"
+excerpt: "Short description"
+collection: projects
+date: YYYY-MM-DD
+header:
+  teaser: images/your-image.png
+---
+Full project description here.
+```
+
+### Publications
+
+Add a new `.md` file to `_publications/`:
+
+```yaml
+---
+title: "Paper Title"
+collection: publications
+permalink: /publication/YYYY-MM-DD-short-title
+date: YYYY-MM-DD
+venue: "Conference or Journal Name"
+paperurl: "https://link-to-paper"
+excerpt: "Brief abstract or summary."
+---
+```
+
+### CV / Data files
+
+- CV JSON data: `_data/cv.json`
+- Navigation menus: `_data/navigation.yml`
+
+---
+
+## Local Setup
+
+### Option A: Native Ruby/Jekyll
+
+**Prerequisites:** Ruby ≥ 3.0, Bundler
+
+```bash
+# Install dependencies
+bundle install
+
+# Serve with live reload
+bundle exec jekyll serve -l -H localhost --config _config.yml
+
+# Site available at http://localhost:4000
+```
+
+### Option B: Docker
+
+**Prerequisites:** Docker, Docker Compose
+
+```bash
+# Build and start the container
+docker compose up --build
+
+# Site available at http://localhost:4000
+```
+
+The Docker setup mounts the repo directory into the container, so file changes are reflected live.
+
+---
+
+## Deployment
+
+This site is automatically deployed to GitHub Pages when changes are pushed to the `master` branch.
+
+```bash
+git add .
+git commit -m "your commit message"
+git push origin master
+```
+
+GitHub Actions (or the built-in GitHub Pages Jekyll builder) will rebuild and publish the site at `https://hiimmuc.github.io` within a few minutes.
+
+> **Note:** Only commit built assets and source files. The `_site/` directory is generated automatically by GitHub Pages and does not need to be committed.
+
+---
 
 ## 📫 Let's Connect
 

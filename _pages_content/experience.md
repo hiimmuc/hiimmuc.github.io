@@ -9,9 +9,9 @@
 - Location: Hanoi, Vietnam
 - Stack: ROS 2, Python, PyTorch, LangGraph, Tool Calling, VLA, VLM, Gazebo
 - Bullets:
-    - Developing and deploying VLMs and VLAs into humanoid robot platforms for multimodal perception and decision-making
-    - Integrated LangGraph + multi-tool calling for fully autonomous manipulation and navigation
-    - Contributing to the robotics AI framework connecting perception, planning, and control layers
+    - Developed **embodied task-planning modules** for humanoid robots to enable autonomous decision-making and task execution using **multi-agent workflows** and **Vision-Language Models**, reducing reliance on manual control
+    - Built and deployed model-based and model-free **6DoF object pose estimation** modules to improve grasping accuracy for humanoid manipulation tasks using **FoundationPose-based** pipelines
+    - Developed an **instruction-following data generation and benchmarking** pipeline to automate dataset creation and evaluation for VLN model training, following a CI/CD-style workflow for continuous iteration
 - Projects:
     - Task Planning for Embodied AI → /projects/task-planning-embodied/
     - 6-DoF Object Pose Estimation → /projects/pose-estimation/
@@ -27,7 +27,7 @@
 - Bullets:
     - Built a Computer Vision Acceleration Pipeline cutting development-phase time cost by 50–70%
     - Package tracking with RF-Detr deployed in warehouse via surveillance cameras, automating storage processes
-    - LLM food-ordering agents with LangGraph deployed in kiosks to automate ordering workflows
+    - Food-ordering Agentic Workflow with LangGraph deployed in kiosks to automate ordering process
 - Projects: [hidden — company privacy policy]
 
 ### Human Robotics Laboratory, NAIST

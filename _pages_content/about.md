@@ -8,7 +8,7 @@ My work spans LLMs, Vision-Language Models (VLMs), Vision-Language Action Models
 ## Stats
 
 - 4+ Years industry
-- 12 Projects
+- 15+ Projects
 - MEng · NAIST · MEXT
 
 ## Research Interests
