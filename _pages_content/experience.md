@@ -98,3 +98,31 @@
 - Period: Sept 2018 – Sept 2022
 - GPA: 3.52 / 4.0 — Graduated with Distinction, 2nd place in Thesis defense committee.
 - Thesis: Speaker verification system for telecommunication service.
+
+---
+
+## Competitions
+
+### VoxCeleb Speaker Recognition Challenge (VoxSRC) 2022 — Top 20
+
+- Task: Speaker Verification — Track 1 (closed, no external data) and Track 2 (open, with external dataset)
+- Approach:
+    - Model fusion: RawNet (raw audio input) + ECAPA-TDNN (spectrogram input)
+    - Multi-loss optimization: AAM-Softmax (classification) + Proxy Anchor (metric learning)
+    - n-fold data augmentation pipeline
+
+### Vietnamese Language and Speech Processing (VLSP) 2022 — Top 5
+
+- Task: O-COCOSDA and VLSP 2022 - MSV Shared task: Multilingual Speaker Verification (Track 1: seen languages, Track 2: unseen languages, Track 3: cross-lingual)
+- Approach:
+    - Model fusion: RawNet (raw audio input) + ECAPA-TDNN (spectrogram input)
+    - Pretrained self-supervised models: Wav2Vec 2.0 and WavLM as feature extractors
+    - Multi-loss optimization for cross-lingual speaker representation
+
+### Data-Centric AI Competition, FPT 2021
+
+- Task: Improve human detection with YOLOv5 using a data-driven approach only (no model architecture changes)
+- Approach:
+    - Data preprocessing: noisy label removal, annotation standardization, image quality enhancement
+    - Ensemble with diverse augmentation strategies and hyperparameter sets
+    - Knowledge distillation to reduce manual data evaluation overhead
