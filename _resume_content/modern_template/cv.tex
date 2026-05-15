@@ -1,0 +1,45 @@
+% !TEX TS-program = lualatex
+% Awesome Source CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/darwiin/awesome-neue-latex-cv
+%
+% Author:
+% Christophe Roger (Darwiin)
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+
+\documentclass[localFont,alternative]{yaac-another-awesome-cv}
+\name{Phuong Nam}{Dang}
+\tagline{AI Engineer | M.Eng Human--Robotics Interaction @ NAIST}
+\photo{3.5cm}{imgs/profile_3.jpg}
+\socialinfo{
+	\linkedin{phgnam-dang}
+	\website{https://hiimmuc.github.io/}{hiimmuc.github.io}
+	\github{hiimmuc} \\
+	\email{phgnam1811.vn@gmail.com}
+	\smartphone{+84 912 582 757}
+	\address{Hanoi, Vietnam}
+	% \infos{Né le 23 septembre 1982 (35 ans) à Nouméa, Nouvelle-Calédonie}
+}
+
+\begin{document}
+
+	\makecvheader
+
+	\makecvfooter
+		{\textsc{\selectlanguage{english} \today}} % \selectlanguage{english}\today
+		{\textsc{Phuong Nam Dang - CV}}
+		{\thepage}
+
+	% \input{sections/section_headline}
+	\input{sections/section_skills}             % Skills
+	\input{sections/section_experiences}        % Work Experience
+	\input{sections/section_languages}                 % Languages
+	\input{sections/section_education}              % Education
+	%\input{sections/section_interests}              % Interests
+	\input{sections/section_projects}               % Projects
+	\input{sections/section_references}             % References
+
+\end{document}
